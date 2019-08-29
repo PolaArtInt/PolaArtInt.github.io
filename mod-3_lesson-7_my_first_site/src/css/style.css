@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box; /* нивеляция размеров рамок и отступов относительно реальных размеров элемента  */
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* шрифты */
+    line-height: 1.6; /* высота строки */
+    color: #333; /* цвет букв */
+}
+/*  первая секция */
+.header {
+    font-size: 24px; /* размер шрифта */
+}
+.header span {
+    display: block; /* отображение элемента в блочном виде */
+    font-weight: 400; /* жирность шрифта */
+}
+.header strong {
+    font-weight: 700; /* жирность шрифта */
+    text-transform: uppercase; /* отображение текста заглавными буквами */
+}
+.section-1 {
+    padding: 70px 10%; /* внутренний отступ */
+    text-align: center; /* выравнивание элемента по центру */
+}
+.main {
+    margin-top: 84px; /* внешний отступ сверху */
+    
+}
+.video, .form {
+    display: inline-block; /* отображение блочных элементов строкой  */
+    vertical-align: top; /* выравнивание элементов относительно друг друга по вертикали (по верхней границе) */
+}
+.form {
+    width: 350px; /* ширина */
+    height: 310px; /* высота */
+    border: 5px solid #2727d9; /* рамка */
+    padding: 20px; /* внутренний отступ */ 
+    margin-left:40px; /* внешний отступ слева */
+}
+.form input {
+    width: 280px; /* ширина */
+    height: 48px; /* высота */
+    border: 1px solid #333; /* рамка */
+    padding: 20px; /* внутренний отступ */
+    font-size: 18px; /* размер шрифта */
+    margin: 5px; /* внешний отступ */
+}
+
+.input {
+    text-align: center; /* центрирование элемента */
+}
+.input p {
+    padding: 5px 20px 25px 20px; /* внешний отступ */ 
+    font-size:  20px; /* размер шрифта */
+    font-weight: 700; /* жирность шрифта */
+    
+}
+button {
+    margin: 5px; /* внешний отступ */
+    width: 280px; /* ширина */
+    height: 64px; /* высота */
+    color: white; /* цвет букв */
+    font-weight: 500; /* жирность шрифта */
+    font-size: 16px; /* размер шрифта */
+    background-color: #3333f5; /* цвет фона */
+    border-style: none; /* стиль рамки */
+}
+ /* вторая секция */
+
+.section-2 h2 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.col {
+    display: inline-block; /* отображение блочных элементов строкой  */
+    width: 130px;
+    height: 130px;
+    margin: 50px;
+}
+.features {
+    text-align: center;
+}
+.features p {
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn {
+    margin-top: 35px;
+    text-align: center;   
+}
+
+/* третья секция */
+.section-3 h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+table {
+    margin: auto;
+    margin-bottom: 95px;
+}
+
+.faces img {
+    margin: 17px 12px;
+
+}
+

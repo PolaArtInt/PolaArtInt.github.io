@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+/* Colors */
+/* Basic settings */
+html {
+  font-size: 10px;
+  /* 10px = 1rem */
+  font-family: 'Montserrat', sans-serif;
+}
+/* Typography */
+.header-2 {
+  font-size: 2.5rem;
+  color: #1a1820;
+  font-weight: 700;
+}
+.main-section {
+  padding: 10rem 0;
+  margin: 20px auto;
+}
+.main-header {
+  text-transform: uppercase;
+  font-weight: 750;
+  margin-top: 3rem;
+  line-height: 1.7;
+}
+.main-text-1 {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+  line-height: 1;
+}
+.main-text-2 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 3rem;
+  letter-spacing: 0.1rem;
+}
+/*  Main */
+.main {
+  width: 100%;
+  height: 1250px;
+  background-image: url("http://sun9-36.userapi.com/c850024/v850024923/d1097/bOdiN_Dwtg0.jpg");
+  background-repeat: no-repeat;
+  background-position-x: 20%;
+  background-position-y: 10%;
+  background-size: 220rem 60rem;
+}
+.header {
+  padding: 1rem 0;
+  height: 7rem;
+}
+.button {
+  width: 100%;
+  background-color: #fdb303;
+  color: white;
+  text-transform: uppercase;
+  padding: 2rem 2.7rem;
+  border-radius: 0.5em;
+  -webkit-box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.1);
+  background: -webkit-gradient(linear, left bottom, left top, from(#f6ad00), to(#ffb504));
+  background: linear-gradient(to top, #f6ad00, #ffb504);
+  line-height: 1rem;
+  text-align: center;
+  border: none;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+.header-btn {
+  margin-right: 0;
+  display: inline;
+}
+.form-button {
+  font-size: 1.2rem;
+}
+.phone-link {
+  display: inline-block;
+  color: #292929;
+  font-weight: 900;
+  font-size: 1.5rem;
+  height: 7rem;
+  line-height: 7rem;
+}
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* Form */
+.form-container {
+  width: 36.5rem;
+  height: 41.2rem;
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  border: 1px solid #fffefe;
+}
+.form-container-wraper {
+  width: 80%;
+  height: 35rem;
+  vertical-align: bottom;
+  background-color: white;
+}
+.form-header {
+  margin: 3rem 0 0 0;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+.form-header-span {
+  font-weight: bold;
+}
+.form {
+  margin-top: 10%;
+}
+.form-control {
+  width: 25.5rem;
+  height: 5.5rem;
+  text-align: center;
+  margin: -1.3rem 5rem 2rem 5rem;
+}
+.form-label-1 {
+  background-color: #fff;
+  width: 7em;
+  height: 1.5em;
+}
+.form-label-2 {
+  background-color: #fff;
+  width: 10.1em;
+  height: 1.5em;
+}
+.form-button {
+  width: 25.5rem;
+  height: 5.5rem;
+  margin: 1rem 5rem;
+}
+.feature-container {
+  margin-bottom: 10rem;
+}
+.feature {
+  width: 16rem;
+  height: 8rem;
+  background-color: #26c054;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  font-weight: 500;
+  font-size: 1.1em;
+  margin-left: 0;
+}
+.feature span {
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 2rem;
+}
+.text-wraper {
+  display: block;
+  color: #2bb636;
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+.section {
+  display: block;
+  text-align: center;
+  font-weight: 600;
+}
+.feature-box {
+  width: 23rem;
+  height: 26rem;
+  margin-top: 12rem;
+  display: inline-block;
+}
+.feature-box .a {
+  color: #49bf15;
+}
+.feature-box .feature-p {
+  line-height: 1.5;
+  letter-spacing: 0.2rem;
+}
+.feature-header {
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+  font-weight: 700;
+}

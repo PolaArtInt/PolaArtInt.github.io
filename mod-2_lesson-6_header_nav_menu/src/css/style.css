@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+.menu {
+    width: 100%;
+    color: white;
+    background-color: black;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+#link {
+   
+    
+    display: inline-block;
+    list-style: none;
+    margin: 50px 150px;
+    
+
+}
+.text {
+   margin-top: 100px;
+}
+a,a:visited
+{
+    color: white;
+    text-decoration: none;
+}
+a:active,a:hover {
+    color: rgb(151, 144, 144);
+}

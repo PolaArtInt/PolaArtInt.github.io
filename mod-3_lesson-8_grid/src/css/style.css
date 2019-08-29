@@ -1,0 +1,11 @@
+
+.flex-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.row {
+   width: 100%;
+   text-align: center;
+}
