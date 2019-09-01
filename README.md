@@ -23,6 +23,8 @@
 
 [mod-4_lesson-11_snippets](https://github.com/PolaArtInt/PolaArtInt.github.io/tree/master/mod-4_lesson-11_snippets)
 
-[mod-5_lesson-13](https://github.com/PolaArtInt/PolaArtInt.github.io/tree/master/mod-5_lesson-13/src)
+[mod-5_lesson-13 pixel-perfect](https://github.com/PolaArtInt/PolaArtInt.github.io/tree/master/mod-5_lesson-13/src)
 
-[mod-5_practicum-1](https://github.com/PolaArtInt/PolaArtInt.github.io/tree/master/mod-5_practicum-1/src)
+[mod-5_practicum-1 hypsolite](https://github.com/PolaArtInt/PolaArtInt.github.io/tree/master/mod-5_practicum-1/src)
+
+[mod-5_lesson-14 fonts](https://github.com/PolaArtInt/PolaArtInt.github.io/tree/master/mod-5_lesson-14/src)
