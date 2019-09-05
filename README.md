@@ -28,3 +28,5 @@
 [mod-5_practicum-1 hypsolite](https://github.com/PolaArtInt/PolaArtInt.github.io/tree/master/mod-5_practicum-1/src)
 
 [mod-5_lesson-14 fonts](https://github.com/PolaArtInt/PolaArtInt.github.io/tree/master/mod-5_lesson-14/src)
+
+[mod-5 lesson-15 hover effects](https://github.com/PolaArtInt/PolaArtInt.github.io/tree/master/mod-5_lesson-15/src)
