@@ -34,3 +34,5 @@
 [practicum tinyone](https://github.com/PolaArtInt/PolaArtInt.github.io/tree/master/practicum_tinyone/src)
 
 [responsive](https://github.com/PolaArtInt/PolaArtInt.github.io/tree/master/src_modern_page_hw_responsive)
+
+[hypsolite](https://github.com/PolaArtInt/PolaArtInt.github.io/tree/master/src)
