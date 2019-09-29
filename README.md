@@ -32,3 +32,5 @@
 [mod-5 lesson-15 hover effects](https://github.com/PolaArtInt/PolaArtInt.github.io/tree/master/mod-5_lesson-15/src)
 
 [practicum tinyone](https://github.com/PolaArtInt/PolaArtInt.github.io/tree/master/practicum_tinyone/src)
+
+[responsive](https://github.com/PolaArtInt/PolaArtInt.github.io/tree/master/src_modern_page_hw_responsive)
