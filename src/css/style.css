@@ -6,10 +6,6 @@ html {
 }
 /* Colors */
 /*  Main */
-body {
-  margin-top: 0;
-  background: #ffffff url("../img/main-background.jpg") top center no-repeat;
-}
 button:focus,
 input:focus,
 a:focus {
@@ -17,18 +13,19 @@ a:focus {
 }
 .header {
   padding: 1rem 0;
-  height: 7rem;
 }
 .header-btn {
   display: inline;
 }
 .header-2 {
-  margin-top: 8rem;
-  font-size: 2.5rem;
+  margin-top: 5rem;
+  font-size: 24px;
   color: #1a1820;
   font-weight: 700;
 }
 .main {
+  padding-top: 2rem;
+  background: #ffffff url("../img/main-background.jpg") top center no-repeat;
   width: 100%;
 }
 .main-section {
@@ -37,7 +34,7 @@ a:focus {
 .main-title {
   text-transform: uppercase;
   font-weight: 750;
-  margin-top: 0;
+  margin-top: -30px;
   margin-bottom: 2rem;
   line-height: 1.5;
   letter-spacing: 0.2rem;
@@ -59,7 +56,7 @@ a:focus {
   margin-right: 0;
   width: 100%;
   background-color: #f89009;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
   padding: 2rem 2.7rem;
   border-radius: 0.5em;
@@ -165,7 +162,7 @@ a:focus {
 .form-button {
   width: 25.5rem;
   height: 5.5rem;
-  margin: 1.5rem 5rem 1.5rem 5rem;
+  margin: 1.5rem auto;
 }
 .trigger {
   width: 16rem;
@@ -220,113 +217,112 @@ a:focus {
   text-align: center;
   font-weight: 600;
 }
-@media screen and (max-width: 992px) {
-  body {
-    font-size: 14px;
-    background-position: top left;
-    letter-spacing: 1.7px;
+@media (max-width: 992px) {
+  .main {
+    background-position: top right;
   }
-  .section {
-    margin-top: 10rem;
+  .main-section {
+    margin: 0;
+    padding-top: 60px;
+  }
+  .main-title {
+    margin-top: -100px auto;
   }
   .button {
-    font-size: 18px;
-    letter-spacing: 1.7px;
+    margin: 0 auto;
   }
   .phone-link,
   .trigger,
   .header-btn,
-  .main-text-1,
   .main-text-2,
-  .feature-box {
+  .feature-box,
+  .form-container {
     text-align: center;
     width: 100%;
+    margin: 0 auto;
   }
   .phone-link {
-    font-size: 3rem;
+    font-size: 22px;
+    font-weight: 800;
+  }
+  .header-2 {
+    margin-bottom: 0 0 3rem 0;
   }
   .header-btn {
-    height: 7rem;
+    width: 100%;
+    margin: 10px auto;
+  }
+  .main-text-2 {
+    margin: 2rem auto;
   }
   .main-title {
-    font-size: 32px;
-  }
-  .form {
-    padding-bottom: 3rem;
-  }
-  .form-container {
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
   }
   .form-control,
   .form-button {
     width: 80%;
-    margin: 20px 64px;
+    margin: 20px auto 10px;
     text-align: center;
-  }
-  .container {
-    margin-top: 5rem;
-  }
-  .main-section {
-    margin: 3rem;
-  }
-  .main-title {
-    text-align: center;
-    padding-bottom: 3rem;
-  }
-  .main-title {
-    margin-top: 2rem;
-  }
-  .text-wraper {
-    margin: 3rem;
-  }
-}
-@media screen and (max-width: 768px) {
-  body {
-    background-position: top right;
-  }
-  .main-title {
-    margin-top: 4rem;
-  }
-  .main-text-2 {
-    margin-top: 15px;
-  }
-  .header,
-  .phone-link,
-  .wrap-block,
-  .main-section,
-  .trigger,
-  .form-container,
-  .button {
-    text-align: center;
-  }
-  .main-text-1,
-  .main-text-2 {
-    font-weight: 700;
-  }
-}
-@media screen and (max-width: 576px) {
-  .body {
-    font-size: 10px;
   }
   .form-control {
+    height: 5rem;
+  }
+  .form-button,
+  .form-container {
+    background-color: #f3eded;
+  }
+  .feature-wraper {
+    margin-top: 4rem;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    background-position: top right;
+  }
+  .logo,
+  .phone-link,
+  .header-btn {
+    width: 100%;
     margin: 0 auto;
   }
-  .trigger,
-  .button {
-    width: auto;
+  .main-title {
+    margin-top: -50px auto;
   }
-  .feature-box {
-    width: 60%;
-    margin: 3rem auto;
+  .phone-link {
+    font-weight: 800;
   }
-  .header-2 {
-    margin: 50px;
+}
+@media (max-width: 575px) {
+  body {
+    font-size: 8px;
   }
   .main {
     width: 100%;
+    background-position: top right;
+    width: auto;
+    position: relative;
   }
-  .main-text-1,
-  .main-text-2 {
-    display: none;
+  .main-title {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    margin-top: -50px auto;
+  }
+  .logo,
+  .main-title,
+  .header-btn,
+  .main,
+  .phone-link {
+    width: 100%;
+    margin: -10px auto;
+  }
+  .phone-link {
+    font-weight: 800;
+  }
+  .button {
+    font-size: 12px;
   }
 }
