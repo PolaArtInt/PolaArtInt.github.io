@@ -38,3 +38,5 @@
 [hypsolite](https://github.com/PolaArtInt/PolaArtInt.github.io/tree/master/src)
 
 [Active Live](https://github.com/PolaArtInt/PolaArtInt.github.io/tree/master/src-mod)
+
+[новый проект](https://github.com/PolaArtInt/PolaArtInt.github.io/tree/master/src_modern_page_hw_responsive)
